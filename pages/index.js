@@ -10,7 +10,6 @@ const items = [
 
 export default withRouter(({ router }) => (
   <div>
-    {console.log(router.query)}
     <div>Try adding one of the following items to the url:</div>
 
     <ul>

@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
         </Head>
         <body className="custom_class">
           <Main />
-          <NextScript />
+          <NextScript features={features} />
         </body>
       </html>
     )

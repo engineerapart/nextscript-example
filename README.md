@@ -34,3 +34,7 @@ You can then load up the example in an older browser via Browserstack or other b
 ## The idea behind the example
 
 This example shows you how to use the custom NextScript component to control the loading of your Next script resources, including waiting for polyfills to resolve.
+
+Once deployed, you can load this example in an older browser, for example IE11, and you will see that the functions used in `pages/index.js` do not throw exceptions IE, demonstrating that they have been polyfilled.
+
+Also, open up your browser's dev tools and check out the `__next_preloader` script node - there you will see the preloader script, with settings you have configured being applied to the generated script.
