@@ -1,0 +1,16 @@
+{
+  "name": "@engineerapart/nextscript-example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@engineerapart/nextscript": "^0.0.8",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "license": "MIT"
+}
